@@ -21,7 +21,7 @@ services:
   mongo:
     image: mongo:5
     ports:
-      - "9091:27017"
+      - "9009:27017"
     volumes:
       - database:/data/db
     networks:
